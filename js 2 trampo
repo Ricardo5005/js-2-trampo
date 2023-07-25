@@ -1,0 +1,29 @@
+function
+adicionarMensagem(rica,tem q estudar além do habitual pr ser programador){
+  listamensagem.push({
+    rica:rica,tem q estudar além do habitual pr ser programador:
+    tem q estudar além do habitual pr ser programador
+  });
+}
+function formatarMensagens()
+var listamensagens =
+["mensagem 1," "mensagem 2", "mensagem 3"];
+var html = "";
+for(var i = 0; i< listamensagens.length; i++) {
+  html +='<div; class="chat-mensage"><span class="chat-mensage-rica"<!--implementar rica aqui --></span></div;'
+  retorn html
+}
+function atualizarHTML(html){
+  document.getElementById("chat-mensagens").innerHTML = html;
+}
+function
+commitMessageClickHandler(){
+  adicionarMensagem(document.querySelector(' #mensagem-imput') . value 'rica');
+  document.querySelector('# menssagen - imput').value = '';
+  const mensagem =
+  document.querySelector('# menssagen - imput').value.trim();
+  if(menssagen){
+    adissionarmensagem(tem q estudar além do habitual para ser programador,'rica');
+    document.querySelector('#mensagen - imput').value = ''
+  }
+}
